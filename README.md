@@ -1,2 +1,2 @@
-# Tarea-1.1-IS513
-Primer tarea de la clase de Lenguajes de Programación
+Jasmin Dayanna Enamorado Caballero 20222030464
+Jeshua Emmanuelle Bardales Martinez 20222001343
