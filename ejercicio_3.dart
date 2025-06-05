@@ -17,9 +17,9 @@ void main() {
 }
 //clase
 class Empleado {
-  String nombre;
-  String puesto;
-  double salario;
+  final String nombre;
+  final String puesto;
+  final double salario;
 //construtcor
   Empleado(this.nombre, this.puesto, this.salario);
 }
@@ -34,7 +34,7 @@ double calcularSalarioTotal(List<Empleado> empleados) {
 }
 //funcuon para el salario promedio
 double calcularSalarioPromedio(List<Empleado> empleados) {
-  //if (empleados.isEmpty) return 0;
+  if (empleados.isEmpty) return 0;
   double total = calcularSalarioTotal(empleados);
   return total / empleados.length;
 }
